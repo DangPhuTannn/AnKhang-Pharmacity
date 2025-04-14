@@ -1,0 +1,33 @@
+
+.headerBackground {
+  background-color: #4cb551;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bodyContainer {
+  background-color: #EDF0F3;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.topleft,
+.topright,
+.bottomleft,
+.bottomright {
+  position: fixed;
+  width: 10vw;
+}
+
+.topright {
+  right: 0px;
+}
+
+.bottomleft {
+  bottom: 0px;
+}
+
+.bottomright {
+  bottom: 0px;
+  right: 0px;
+}

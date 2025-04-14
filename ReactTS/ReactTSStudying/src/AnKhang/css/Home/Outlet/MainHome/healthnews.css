@@ -1,0 +1,77 @@
+
+.formHealthNews {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #4cb551;
+  margin-top: 30px;
+  /* box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.51); */
+}
+.formHealthNews img {
+  width: 30px;
+  height: 30px;
+}
+
+.headerFormHealthNews {
+  margin-bottom: 10px;
+}
+
+.imageHealthNews img {
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+}
+
+.eachHealthNews {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.nameHealthNews {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.timeCreateHealthNews {
+  color: #99a6c4;
+  font-size: 12px;
+}
+
+.nameEachHealthNews {
+  padding: 5px 2px;
+}
+
+.mainHealthNews img {
+  width: 100%;
+  max-width: 100%;
+  height: 220px;
+}
+
+.storeHealthNewsButton {
+  padding: 2px 0px;
+  text-align: center;
+  color: #4cb551;
+  font-size: 14px;
+  position: relative;
+}
+.nameHealthNewsButton,
+.healthNewsButton,
+.mainHealthNews,
+.eachHealthNews {
+  cursor: pointer;
+}
+
+.healthNewsButton {
+  position: absolute;
+  right: 45%;
+  bottom: 1px;
+  transform: scale(0.8);
+}
+
+.typeFormMedicine {
+  font-weight: bold;
+}

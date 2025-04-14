@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": "3",
+      "category": "blablabla",
+      "description": "abcxyz",
+      "quantityFlowers": 100
+    },
+    {
+      "id": "4",
+      "category": "Chủ đề",
+      "description": "abcxyz",
+      "quantityFlowers": 52
+    },
+    {
+      "id": "5",
+      "category": "Thiết kế",
+      "description": "abcxyz",
+      "quantityFlowers": 50
+    },
+    {
+      "id": "6",
+      "category": "Hoa theo thể loại",
+      "description": "abcxyz",
+      "quantityFlowers": 15
+    },
+    {
+      "id": "7",
+      "category": "Quà tặng",
+      "description": "abcxyz",
+      "quantityFlowers": 20
+    },
+    {
+      "id": "b544",
+      "category": "123asd",
+      "description": "asdsad",
+      "quantityFlowers": 0
+    },
+    {
+      "id": "0275",
+      "category": "heheh",
+      "description": "asdasdas",
+      "quantityFlowers": 0
+    }
+  ],
+  "user": [
+    {
+      "username": "tan",
+      "password": "123",
+      "permissions": [
+        "client"
+      ],
+      "id": "196a"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "permissions": [
+        "admin"
+      ],
+      "id": "d97b"
+    }
+  ],
+  "flowers": [
+    {
+      "id": "2",
+      "name": "Tình bền lâu",
+      "imageURL": "product.png",
+      "flowerCode": "VS002",
+      "discount": 0,
+      "price": 300500,
+      "date": "17/05/2015",
+      "quantity": 20,
+      "category": "Hoa cưới"
+    },
+    {
+      "id": "3",
+      "name": "Ngày nắng",
+      "imageURL": "product.png",
+      "flowerCode": "VS005",
+      "discount": 5,
+      "price": 550000,
+      "date": "24/05/2015",
+      "quantity": 30,
+      "category": "Hoa chúc mừng"
+    },
+    {
+      "id": "4",
+      "name": "Chúc mừng tốt nghiệp 1",
+      "imageURL": "product.png",
+      "flowerCode": "VS004",
+      "discount": 0,
+      "price": 350000,
+      "date": "11/02/2015",
+      "quantity": 50,
+      "category": "Chủ đề"
+    },
+    {
+      "id": "5",
+      "name": "Chúc mừng tốt nghiệp 2",
+      "imageURL": "product.png",
+      "flowerCode": "VS004",
+      "discount": 0,
+      "price": 350000,
+      "date": "11/02/2015",
+      "quantity": 60,
+      "category": "Thiết kế"
+    },
+    {
+      "id": "6",
+      "name": "Chúc mừng tốt nghiệp 3",
+      "imageURL": "product.png",
+      "flowerCode": "VS004",
+      "discount": 0,
+      "price": 250000,
+      "date": "11/02/2015",
+      "quantity": 70,
+      "category": "Quà tặng"
+    },
+    {
+      "id": "8ae5",
+      "category": "asd",
+      "name": "hihihi",
+      "imageURL": "logoAnKhang.png",
+      "price": 350000,
+      "quantity": "123",
+      "flowerCode": "asd",
+      "discount": 0,
+      "date": "1/1/2025"
+    }
+  ],
+  "orders": [
+    {
+      "id": "8c63",
+      "storeListFlowers": [
+        {
+          "name": "hihihi",
+          "price": 350000,
+          "quantity": 1
+        },
+        {
+          "name": "Chúc mừng tốt nghiệp 3",
+          "price": 250000,
+          "quantity": 1
+        }
+      ],
+      "recipientName": "adasd",
+      "phoneNumber": "123",
+      "address": "asd",
+      "note": "asd"
+    }
+  ]
+}

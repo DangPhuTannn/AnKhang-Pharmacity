@@ -1,0 +1,41 @@
+.formMostFind {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #4cb551;
+  margin-top: 30px;
+  /* box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 11px 55px 5px rgba(0, 0, 0, 0.51); */
+}
+
+.headerFormMostFind {
+  margin-bottom: 10px;
+}
+.formMostFind img {
+  width: 30px;
+  height: 30px;
+}
+
+.nameMostFind {
+  padding: 10px 15px;
+  border: 1px solid #e2e2e2;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.nameMostFind:hover {
+  border-color: #4cb551;
+  color: #4cb551;
+}
+.typeFormMedicine {
+  font-weight: bold;
+}
+
+.mostFindBody {
+  margin-top: 10px;
+}

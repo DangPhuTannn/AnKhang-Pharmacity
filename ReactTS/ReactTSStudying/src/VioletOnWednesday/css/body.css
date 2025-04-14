@@ -1,0 +1,26 @@
+.bodyLeft {
+  width: 753px;
+  margin-left: 7px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyRight {
+  width: 362px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.eachButton {
+  color: #662d91;
+  border: 1px solid #662d91;
+  padding: 6px 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.eachButton:hover {
+  background-color: #662d91;
+  color: white;
+}

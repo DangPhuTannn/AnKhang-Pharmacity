@@ -1,0 +1,15 @@
+.choseStatusIndex {
+  border-bottom: 1px solid #4cb551;
+  color: black;
+}
+
+.eachOrderForm::-webkit-scrollbar {
+  width: 3px;
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;
+}
+
+.eachOrderForm::-webkit-scrollbar-thumb {
+  background: #888; /* Dark grey scrollbar */
+  border-radius: 10px;
+}

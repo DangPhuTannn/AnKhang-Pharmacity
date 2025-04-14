@@ -1,0 +1,140 @@
+.eachFlowerVertical img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.eachFlowerVertical {
+  background-color: #f8f8f8;
+  position: relative;
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discountFlowerVertical {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-color: #e83d2b;
+  top: 0px;
+  right: 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.discountFlowerHorizontal {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-color: #e83d2b;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.infoFlowerVertical {
+  padding: 10px;
+}
+
+.nameFlower {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.flowerCode {
+  margin-top: 5px;
+  color: #662d91;
+  font-weight: bold;
+}
+
+.priceFlower {
+  color: #869393;
+  text-decoration: line-through;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.discountPriceFlower {
+  margin-top: 5px;
+  color: #e83d2b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.discountPriceFlowerHorizontal {
+  color: #e83d2b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapperNews {
+  margin-top: 20px;
+}
+
+.eachNews {
+  margin-top: 15px;
+  padding: 8px 0px;
+  cursor: pointer;
+}
+
+.eachFlowerHorizontal {
+  cursor: pointer;
+  margin: 20px 0px;
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+.dashdash {
+  margin-top: 10px;
+  border: 1px dashed #869393;
+}
+
+.nameNews {
+  color: #2c3e50;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.nameFlowerHorizontal {
+  color: #2c3e50;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.iconNews {
+  transform: scale(0.9);
+  position: absolute;
+  left: 0px;
+  top: 2px;
+}
+
+.dateNews {
+  font-size: 14px;
+  position: relative;
+  padding-left: 25px;
+  padding-top: 5px;
+  color: #a4adae;
+  font-weight: normal;
+}
+
+.eachFlowerHorizontal img {
+  width: 100px;
+  height: 100px;
+}
+
+.storePriceFlowerHorizontal {
+  margin-top: 30px;
+  padding-left: 5px;
+  position: absolute;
+  bottom: 7px;
+}

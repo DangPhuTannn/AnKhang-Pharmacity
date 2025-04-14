@@ -1,0 +1,66 @@
+.footer {
+  padding: 60px 24px 0px 24px;
+}
+
+.storeFormContact {
+  justify-content: center;
+}
+
+.titleEachContact {
+  color: #515151;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.listEachContact {
+  list-style-type: none;
+}
+
+.listEachContact li {
+  margin-top: 7px;
+  color: #515151;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.listEachContact li:hover {
+  color: #4cb551;
+}
+
+.phoneNumEachContact {
+  color: #4d77e8;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.footerSocial {
+  margin: 45px 0px 0px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #515151;
+}
+
+.socialIconFooter {
+  transform: scale(1.7);
+  margin-top: 10px;
+}
+
+.socialFooterTitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footerTemp {
+  padding: 20px 0px;
+  font-size: 12px;
+}
+
+.footerLogoWB {
+  background-color: #f5f7fb;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  border-top:1px solid #e0e0e0;
+}

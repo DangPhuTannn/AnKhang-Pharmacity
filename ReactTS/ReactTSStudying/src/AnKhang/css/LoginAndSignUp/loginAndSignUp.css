@@ -1,0 +1,131 @@
+.loginAndSignUpContainer {
+  background-color: #4cb551;
+  height: 100vh;
+  z-index: 1;
+}
+
+.loginContainer {
+  position: absolute;
+  width: 600px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.signUpContainer {
+  position: absolute;
+  width: 650px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.storeLoginTitle {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.loginTitle {
+  color: #4cb551;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.loginSubTitle {
+  font-size: 14px;
+}
+.storeLoginSubTitle {
+  margin-top: 5px;
+}
+
+
+.passwordInputSignUpField {
+  margin-right: 8px !important;
+}
+
+
+
+.inputLoginField .MuiOutlinedInput-root:hover fieldset,
+.inputLoginField .MuiOutlinedInput-root.Mui-focused fieldset,
+.inputLoginField label.Mui-focused,
+.inputLoginField:hover label {
+  color: #4cb551;
+  border-color: #4cb551;
+}
+
+.redBorderError .MuiOutlinedInput-root fieldset {
+  border: 1px solid #d32f2f;
+}
+
+.redBorderError .MuiInputLabel-root {
+  color: #d32f2f;
+}
+
+.Width27-5:first-child {
+  margin-right: 8px;
+}
+
+.buttonLoginField {
+  background-color: #4cb551 !important;
+}
+
+.eachInputField {
+  display: flex;
+  justify-content: center;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px !important;
+}
+
+.errorDateSignUp {
+  color: #d32f2f;
+  font-size: 0.75rem;
+  margin: -15px 14px 10px 14px;
+}
+
+.linkNavigation {
+  text-decoration: none;
+  color: #4cb551;
+  font-weight: bold;
+}
+.storeForgotPassword {
+  width: 70%;
+  max-width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 15px;
+  margin-top: -12px;
+}
+
+.storeCreateNavigation {
+  text-align: center;
+}
+
+.formOtherLoginWays {
+  text-align: center;
+  margin-top: 30px;
+}
+.eachOtherLoginWay {
+  width: 70px;
+  height: 50px;
+  background-color: #ececec;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.eachIconLoginWay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

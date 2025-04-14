@@ -1,0 +1,49 @@
+.userOptionsHeaderContainer {
+  position: absolute;
+  padding-top: 20px;
+  left: -10px;
+  z-index: 9999;
+  width: 200px;
+  display: none;
+}
+
+.userOptionsHeader::before {
+  content: "";
+  top: -8px;
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: inherit;
+  border: inherit;
+  position: absolute;
+  bottom: 0px;
+  left: 46%;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  transform: rotate(135deg);
+  border-radius: 0px 0px 0px 4px;
+}
+
+.userOptionsHeader {
+  background-color: white;
+  box-shadow: rgba(0, 39, 102, 0.08) 0px 0px 24px -4px,
+    rgba(0, 39, 102, 0.03) 0px 0px 8px -4px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+}
+
+.userOptionsHeader li:first-child {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.userOptionsHeader li:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.userOptionsHeader li {
+  cursor: pointer;
+}

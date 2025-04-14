@@ -1,0 +1,196 @@
+.formMedicine {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #4cb551;
+  margin-top: 30px;
+  position: relative;
+}
+
+.bodyFormMedicine {
+  margin-top: 5px;
+}
+
+.formMedicine img {
+  width: 30px;
+  height: 30px;
+}
+
+.typeMedicine {
+  padding: 10px 20px;
+  border: 1px solid #e2e2e2;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.headerFormMedicine {
+  margin-bottom: 10px;
+}
+
+.nameMedicine {
+  font-size: 14px !important;
+  height: 40px;
+}
+
+.medicineContainer {
+  display: flex;
+}
+
+.medicine {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.medicine img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.typeMedicine:hover {
+  border-color: #4cb551;
+  color: #4cb551;
+}
+
+.medicine:hover {
+  border-color: #4cb551;
+}
+
+.choseTypeMedicine {
+  color: white !important;
+  background-color: #4cb551 !important;
+}
+
+.discountMedicine {
+  background-color: #d0021c;
+  padding: 3px 5px;
+  width: auto;
+  color: white;
+  font-size: 12px;
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  text-align: center;
+}
+
+.quantityMedicine {
+  background-color: #e8f1fb;
+  color: #1f4eaf;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  width: fit-content;
+}
+
+.nameMedicine {
+  font-size: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.priceMedicine {
+  display: flex;
+  justify-content: space-between;
+}
+.storePriceAndTypeMedicine {
+  display: flex;
+}
+.priceDiscount {
+  color: #e83a45;
+  font-weight: bold;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.realPriceMedicine {
+  font-size: 13px;
+  color: #939393;
+  padding-top: 3px;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.cartButtonMedicine {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.addCartButtonMedicine {
+  color: white;
+  background-color: #4cb551;
+}
+
+.soldOutCartButtonMedicine {
+  background-color: #e7f0fa;
+  color: #1f4eaf;
+}
+
+.medicineButton {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #939393;
+}
+
+.arrowMedicine {
+  position: absolute;
+  left: 7px;
+  bottom: 8px;
+}
+
+.storePrevMedicineButton {
+  position: absolute;
+  top: 45%;
+  left: -2%;
+  transform: translateY(-50%);
+}
+
+.storeNextMedicineButton {
+  position: absolute;
+  top: 45%;
+  right: -2%;
+  transform: translateY(-50%);
+}
+
+.medicineButton:hover {
+  background-color: #4cb551;
+  color: white;
+}
+
+.typeFormMedicine {
+  font-weight: bold;
+  align-items: center;
+}
+
+.typeMedicineContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.multiline-ellipsis-MedicineName {
+  display: -webkit-box; /* Enable block box layout */
+  -webkit-line-clamp: 2; /* Number of lines to display */
+  -webkit-box-orient: vertical; /* Orientation of the box */
+  overflow: hidden; /* Hide overflowing content */
+}

@@ -1,0 +1,64 @@
+/* === Vertical Scrollbar === */
+.ag-body-vertical-scroll-viewport::-webkit-scrollbar {
+  width: 6px; /* Adjust scrollbar width */
+  background: #f1f1f1;
+}
+
+.ag-body-vertical-scroll-viewport::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.ag-body-vertical-scroll-viewport::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* === Horizontal Scrollbar === */
+.ag-body-horizontal-scroll-viewport::-webkit-scrollbar {
+  height: 6px; /* Adjust scrollbar height */
+  background: #f1f1f1;
+}
+
+.ag-body-horizontal-scroll-viewport::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.ag-body-horizontal-scroll-viewport::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ag-root-wrapper {
+  height: auto;
+  max-height: 100vh !important;
+}
+
+.redStatusDashBoard {
+  background-color: #ffcccc; /* Màu đỏ nhạt */
+  color: #990000; /* Đỏ đậm cho chữ */
+}
+
+.yellowStatusDashBoard {
+  background-color: #fff4b3; /* Màu vàng nhạt */
+  color: #997a00; /* Vàng đậm cho chữ */
+}
+
+.greenStatusDashBoard {
+  background-color: #ccffcc; /* Màu xanh nhạt */
+  color: #006600; /* Xanh đậm cho chữ */
+}
+
+.deleteStatusDashBoard {
+  background-color: #ffe6e6;
+  opacity: 0.6; /* Làm mờ để thể hiện đã xóa */
+}
+
+.eachOrderForm::-webkit-scrollbar {
+  width: 3px;
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;
+}
+
+.eachOrderForm::-webkit-scrollbar-thumb {
+  background: #888; /* Dark grey scrollbar */
+  border-radius: 10px;
+}

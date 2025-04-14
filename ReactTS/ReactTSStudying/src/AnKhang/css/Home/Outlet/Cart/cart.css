@@ -1,0 +1,155 @@
+.cartWrapper {
+  padding-bottom: 20px;
+}
+
+.storeButtonBackToHomeCart {
+  display: flex;
+  align-items: center;
+  color: #4cb551;
+}
+
+.arrowBackToHomeCart {
+  transform: scale(0.7);
+}
+
+.titleBackToHomeCart {
+  font-size: 14px;
+}
+
+.cartContainer {
+  margin-top: 10px;
+  display: flex;
+  gap: 1.25rem;
+  position: relative;
+}
+
+.buttonCart {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #657384;
+  position: relative;
+}
+
+.isPickedCartItemCart {
+  background-color: #4cb551;
+}
+
+.unAvailableProduct {
+  background-color: #d92d20;
+}
+
+.storeCheckButtonCart {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containerLeftCart {
+  width: 804px;
+  max-width: 804px;
+}
+
+.headerContainerLeftCart {
+  display: flex;
+  padding: 8px 16px;
+  font-size: 13px;
+  height: 36px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+}
+
+.bodyContainerLeftCart {
+  margin-top: 2px;
+  width: auto;
+  padding: 16px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.eachCartItemCart {
+  padding: 16px 0px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.eachCartItemImgCart {
+  width: 60px;
+  height: 60px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.eachCartItemNameCart {
+  width: 282px;
+  max-width: 282px;
+  font-size: 14px;
+  color: #020b27;
+  line-height: 1.2rem;
+  letter-spacing: 0.01rem;
+}
+
+.eachCartItemPriceCart {
+  max-width: 160.82px;
+  width: 160.82px;
+  text-align: center;
+  font-size: 14px;
+  color: #4cb551;
+}
+.eachCartItemRealPriceCart {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #657384;
+}
+
+.storeEachCartItemQuantityCart {
+  max-width: 128.66px;
+  width: 126.66px;
+}
+
+
+
+.eachCartItemPackageCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  width: 96px;
+  max-width: 96px;
+}
+
+.containerLeftCart > ul > li:last-child {
+  border-bottom: none;
+  padding-top: 16px;
+  padding-bottom: 0px;
+}
+
+.containerLeftCart > ul > li:first-child {
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+
+.containerRightCart {
+  width: 100%;
+  background-color: white;
+  padding: 16px 14px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: sticky;
+  top: 5%;
+  max-height: 388px;
+}
+
+.inputNoteCart .MuiOutlinedInput-root:hover fieldset,
+.inputNoteCart .MuiOutlinedInput-root.Mui-focused fieldset,
+.inputNoteCart label.Mui-focused,
+.inputNoteCart:hover label {
+  color: #4cb551;
+  border-color: #4cb551;
+}

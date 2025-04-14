@@ -1,0 +1,37 @@
+.dialogScrollBar::-webkit-scrollbar,
+.storeEachListAttribute::-webkit-scrollbar,
+.MuiDialog-paperScrollPaper::-webkit-scrollbar {
+  width: 6px;
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;
+}
+
+.dialogContentForUserInfor {
+  max-height: 600px;
+}
+
+.dialogScrollBar::-webkit-scrollbar-thumb,
+.storeEachListAttribute::-webkit-scrollbar-thumb,
+.MuiDialog-paperScrollPaper::-webkit-scrollbar-thumb {
+  background: #888; /* Dark grey scrollbar */
+  border-radius: 10px;
+}
+
+.inputFieldForDashBoard .MuiOutlinedInput-root:hover fieldset,
+.inputFieldForDashBoard .MuiOutlinedInput-root.Mui-focused fieldset,
+.inputFieldForDashBoard label.Mui-focused,
+.inputFieldForDashBoard:hover label {
+  color: #4cb551;
+  border-color: #4cb551;
+}
+.radioUserInfor .MuiRadio-root.Mui-checked {
+  color: #4cb551;
+}
+
+.radioUserInfor .MuiRadio-root:hover {
+  background-color: rgba(76, 181, 81, 0.08);
+}
+
+.radioUserInfor .MuiFormLabel-root {
+  color: #4a4f63 !important;
+}

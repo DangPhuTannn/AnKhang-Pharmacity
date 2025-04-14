@@ -1,0 +1,34 @@
+.storeVerification {
+  border-top: 3px solid #662d91;
+  border-bottom: 3px solid #662d91;
+  padding: 40px 0px;
+  margin-top: 45px;
+}
+
+.storeIconVerification {
+  width: 75px;
+  height: 75px;
+  background-color: #662d91;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.iconVerification {
+  position: absolute;
+  top: 35%;
+  left: 36%;
+  transform: scale(2);
+}
+
+.titleInfoVerification {
+  font-weight: bold;
+  color: #662d91;
+  cursor: pointer;
+}
+
+.textInfoVerification {
+  color: #2c3e50;
+  font-size: 15px;
+  padding-right: 70px;
+}

@@ -1,0 +1,146 @@
+.categoryHomeContainer {
+  padding: 0px 20px;
+}
+
+.eachCategoryForm {
+  background-color: white;
+  height: 184px;
+  width: fit-content;
+  border-radius: 10px;
+  gap: unset !important;
+}
+
+.leftEachCategoryForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  padding: 12px;
+  border: 1px solid #e4e8ed;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.linkLeftCategoryForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftEachCategoryForm img {
+  width: 40px;
+  height: 40px;
+}
+.mainTitleCategoryForm {
+  margin-bottom: 16px !important;
+}
+.titleCategoryForm {
+  color: #4a4f63;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.totalMedicinesCategoryForm {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #4a4f63;
+}
+
+.rightEachCategoryForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 14px;
+  color: #1250dc;
+  padding: 8px 16px;
+  border: 1px solid #e4e8ed;
+  border-left: none;
+  width: 229px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.eachSubCategoryHome {
+  padding: 4px 0px;
+  margin-top: 2px;
+}
+
+.storeNextSubCategory {
+  width: 50px;
+  height: 27px;
+  margin-top: 10px;
+}
+
+.storeArrowCategory {
+  justify-content: center;
+  display: none;
+}
+.storeDotsCategory {
+  display: flex;
+  justify-content: center;
+}
+
+.storeNextSubCategory:hover .storeArrowCategory {
+  display: flex;
+}
+
+.storeNextSubCategory:hover .storeDotsCategory {
+  display: none;
+}
+
+.storeEachArrowCategory {
+  background-color: #c2c8cc;
+  border-radius: 50%;
+  margin: 0px 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.dotCategory {
+  color: #c2c8cc;
+  transform: scale(0.4);
+  cursor: pointer;
+  color: #d9dfe5;
+}
+
+.isActiveDotCategory {
+  color: #657384;
+}
+
+.subCategoryForm {
+  background-color: white;
+  border-radius: 10px;
+  height: 68px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.leftSubCategory {
+  width: 40px;
+  height: 40px;
+}
+
+.rightSubCategory {
+  margin-left: 12px;
+  font-size: 14px;
+}
+
+.subCategoryTotal {
+  color: #a4adae;
+}
+.linkSubcategory {
+  display: flex;
+}
+
+
+.multiline-ellipsis-CategoryName {
+  display: -webkit-box; /* Enable block box layout */
+  -webkit-line-clamp: 1; /* Number of lines to display */
+  -webkit-box-orient: vertical; /* Orientation of the box */
+  overflow: hidden; /* Hide overflowing content */
+}

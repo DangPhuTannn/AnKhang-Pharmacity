@@ -1,0 +1,164 @@
+.tempCartContainer {
+  padding-top: 20px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 9999;
+  display: none;
+  cursor: auto;
+}
+
+.mainTempCart {
+  background-color: white;
+  box-shadow: rgba(0, 39, 102, 0.08) 0px 0px 24px -4px,
+    rgba(0, 39, 102, 0.03) 0px 0px 8px -4px;
+  border-radius: 12px;
+  padding: 16px;
+  width: 383px;
+  position: relative;
+  box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 19px -6px rgba(0, 0, 0, 0.75);
+}
+
+.mainTempCart::before {
+  content: "";
+  top: -8px;
+  display: block;
+  height: 16px;
+  width: 16px;
+  background-color: inherit;
+  border: inherit;
+  position: absolute;
+  bottom: 0px;
+  right: 32px;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  transform: rotate(135deg);
+  border-radius: 0px 0px 0px 4px;
+}
+
+.titleTempCart {
+  color: #657384;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.storeEachCartItemTempCart {
+  margin-top: 15px;
+  max-height: 360px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.storeEachCartItemTempCart::-webkit-scrollbar {
+  width: 3px;
+  background: #f1f1f1; /* Light grey background */
+  border-radius: 10px;
+}
+
+.storeEachCartItemTempCart::-webkit-scrollbar-thumb {
+  background: #888; /* Dark grey scrollbar */
+  border-radius: 10px;
+}
+
+.eachCartItemTempCart {
+  display: flex;
+  align-items: center;
+  height: 81px;
+  max-height: 81px;
+  padding: 8px 0px;
+  margin-bottom: 8px;
+}
+
+.imgEachCartItemTempCart {
+  width: 56px;
+  height: 56px;
+  padding: 5px;
+  border: 1px solid #e4e8ed;
+  border-radius: 10px;
+}
+
+.bodyEachCartItemTempCart {
+  margin-left: 12px;
+  max-width: 225px;
+  width: 225px;
+}
+
+.nameEachCartItemTempCart {
+  color: #020b27;
+  font-size: 14px;
+  display: -webkit-box; /* Enable block box layout */
+  -webkit-line-clamp: 2; /* Number of lines to display */
+  -webkit-box-orient: vertical; /* Orientation of the box */
+  overflow: hidden; /* Hide overflowing content */
+  margin-bottom: 4px;
+  font-weight: 500;
+  line-height: 1.2rem;
+  letter-spacing: 0.01em;
+}
+
+.priceAndPackageEachCartItemTempCart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceEachCartItemTempCart {
+  display: flex;
+  align-items: center;
+}
+
+.discountPriceEachCartItemTempCart {
+  font-size: 14px;
+  color: #4cb551;
+  font-weight: bold;
+}
+
+.realPriceEachCartItemTempCart {
+  font-size: 12px;
+  margin-left: 8px;
+  color: #657384;
+  text-decoration: line-through;
+}
+
+.packageEachCartItemTempCart {
+  font-size: 13px;
+  color: #657384;
+}
+
+.storeBinEachCartItemTempCart {
+  margin-left: 16px;
+}
+
+.binEachCartItemTempCart {
+  color: #657384;
+  cursor: pointer;
+}
+
+.footerCartItemTempCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.totalQuantityFooterCartItemTempCart {
+  color: #657384;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.buttonShowCartFooterCartItemTempCart {
+  padding: 8px 12px;
+  background-color: #4cb551;
+  color: white;
+  font-weight: 500;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.noProductTempCart {
+  color: #657384;
+  text-align: center;
+  font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.eachType {
+  background-color: white !important;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #4CB551;
+}
+.eachType img {
+  border-radius: 10px;
+  max-width: 100%;
+  width: 86px;
+  height: 86px;
+}
+
+.nameEachType{
+  padding: 5px;
+}
+.storeImgEachType{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

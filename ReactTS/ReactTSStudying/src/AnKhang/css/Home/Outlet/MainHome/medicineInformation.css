@@ -1,0 +1,178 @@
+.medicineInformation {
+  width: 1216px;
+  padding: 16px 20px;
+}
+
+.medicineInformationContainer {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  padding: 16px;
+  gap: 20px;
+}
+
+.imageMedicineInformation {
+  width: 475px;
+  height: 475px;
+  padding: 51px;
+  position: sticky;
+  top: 5%;
+}
+
+.allMedicineInformation {
+  gap: 10px;
+  width: 625px;
+  display: flex;
+  flex-direction: column;
+}
+
+.medicineInformationBrand {
+  font-size: 16px;
+}
+
+.medicineInformationName {
+  font-size: 1.5rem;
+}
+
+.medicineInformationStatus {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.medicineInformationStatusName {
+  color: #869393;
+}
+
+.medicineInformationStatusStars {
+  font-size: 14px;
+}
+.medicineInformationStatusRate,
+.medicineInformationStatusComments {
+  color: #4cb551;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.medicineInformationPrice {
+  font-size: 2.25rem;
+  color: #4cb551;
+  font-weight: 600;
+}
+
+.medicineInformationPackage {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.medicineInformationRealPrice {
+  text-decoration-line: line-through;
+  color: #869393;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.medicineInformationEach {
+  display: flex;
+}
+
+.medicineInformationEachName {
+  color: #4a4f63;
+  width: 155px;
+  margin-right: 16px;
+}
+
+.medicineInformationEachValue {
+  width: 470px;
+}
+
+.medicineInformationBox {
+  background-color: #4cb551;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.chooseQuantityMedicine {
+  display: flex;
+  align-items: center;
+}
+
+.totalQuantityMedicine {
+  border: 1px solid #c1c8d1;
+  padding: 5px 0px;
+  text-align: center;
+  width: 50px;
+}
+
+.decreaseQuantityMedicine {
+  border: 1px solid #c1c8d1;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.unactiveButtonChangeQuantity {
+  color: #c1c8d1;
+}
+
+.increaseQuantityMedicine {
+  border: 1px solid #c1c8d1;
+  border-left: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.increaseQuantityMedicine,
+.decreaseQuantityMedicine {
+  padding: 4.5px 5px;
+  cursor: pointer;
+}
+
+.decreaseQuantityMedicineIcon,
+.increaseQuantityMedicineIcon {
+  transform: scale(0.7);
+}
+
+.medicineInformationButtonBuy {
+  background-color: #4cb551;
+  color: white;
+  padding: 10px 0px;
+  width: 470px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.medicineInformationStoreButtonBuy {
+  display: flex;
+  justify-content: right;
+}
+
+.medicineInformationStoreAssurances {
+  border-top: 1px solid #869393;
+  padding-top: 16px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.eachMedicineInformationAssurance {
+  display: flex;
+}
+.eachMedicineInformationAssuranceImage {
+  width: 50px;
+  height: 50px;
+}
+
+.eachMedicineInformationAssuranceImage img {
+  width: 40px;
+  height: 40px;
+}
+
+.eachMedicineInformationAssuranceText::first-line {
+  font-weight: bold;
+}

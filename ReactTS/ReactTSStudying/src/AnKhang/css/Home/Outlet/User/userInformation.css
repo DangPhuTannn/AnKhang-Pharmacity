@@ -1,0 +1,89 @@
+.leftContainerUserInfor {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  position: sticky;
+  height: fit-content;
+  top: 20px;
+}
+
+.storePropsInforContainer {
+  width: 289px;
+  height: 176px;
+  background-color: #4cb551;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 10px;
+}
+
+.storePropsInfor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.storeUserOptionsInfor {
+  background-color: white;
+  border-radius: 15px;
+  max-height: 402px;
+}
+
+.storeUserOptionsInfor li {
+  color: #4a4f63;
+  cursor: pointer;
+}
+
+.storeUserOptionsInfor li:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.storeUserOptionsInfor li:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.storeUserOptionsInfor li:hover {
+  background-color: #4cb551;
+  color: white !important;
+}
+.pickedUserOptionInfor {
+  background-color: #4cb551;
+  color: white !important;
+}
+
+.rightContainerUserInfor {
+  width: 100%;
+}
+
+.inputChangingField {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.inputChangingField .MuiOutlinedInput-root:hover fieldset,
+.inputChangingField .MuiOutlinedInput-root.Mui-focused fieldset,
+.inputChangingField label.Mui-focused,
+.inputChangingField:hover label {
+  color: #4cb551;
+  border-color: #4cb551;
+}
+
+.disableInputChangingField {
+  background-color: #e4e8ed;
+}
+
+.radioUserInfor .MuiRadio-root.Mui-checked {
+  color: #4cb551;
+}
+
+.radioUserInfor .MuiRadio-root:hover {
+  background-color: rgba(76, 181, 81, 0.08);
+}
+
+.radioUserInfor .MuiFormLabel-root {
+  color: #4a4f63 !important;
+}
