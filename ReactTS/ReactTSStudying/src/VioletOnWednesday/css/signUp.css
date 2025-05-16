@@ -1,7 +1,0 @@
-.inputLoginField .MuiOutlinedInput-root:hover fieldset,
-.inputLoginField .MuiOutlinedInput-root.Mui-focused fieldset,
-.inputLoginField label.Mui-focused,
-.inputLoginField:hover label {
-  color: #662d91;
-  border-color: #662d91;
-}
